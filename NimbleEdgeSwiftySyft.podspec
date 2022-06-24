@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "NimbleEdgeSwiftySyft"
+  s.name         = "NimbleEdgeSwiftySyft"
   s.module_name      = 'SwiftSyft'
-  s.version          = '0.5.0-rc.1'
+  s.version          = '0.0.1'
   s.summary          = 'The official Syft worker for iOS, built in Swift.'
 
 # This description is used to generate tags and improve search results.
@@ -31,10 +31,10 @@ Pod::Spec.new do |spec|
   Federated Learning.
                        DESC
 
-  s.homepage         = 'https://github.com/OpenMined/SwiftSyft'
+  s.homepage         = 'https://github.com/kishanNimbleEdge/kishanNimbleEdge.git'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'OpenMined' => 'author@openmined.com' }
-  s.source           = { :git => 'https://github.com/OpenMined/SwiftSyft.git', :tag => "v#{s.version.to_s}" }
+  s.source           = { :git => 'https://github.com/kishanNimbleEdge/kishanNimbleEdge.git', :tag => "v#{s.version.to_s}" }
 
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   s.ios.deployment_target = '13.0'
@@ -61,12 +61,12 @@ Pod::Spec.new do |spec|
   s.dependency 'GoogleWebRTC', '~> 1.1.0'
   s.dependency 'SyftProto', '0.4.9'
   
-  s.test_spec 'Tests' do |test_spec|
-    test_spec.source_files = 'Tests/*.swift'
+ # s.test_spec 'Tests' do |test_spec|
+ #   test_spec.source_files = 'Tests/*.swift'
 
-    test_spec.resources = 'Tests/Resources/*.{json,proto}'
-    test_spec.dependency 'OHHTTPStubs/Swift'
-    test_spec.requires_app_host = true
-  end
+ #   test_spec.resources = 'Tests/Resources/*.{json,proto}'
+ #   test_spec.dependency 'OHHTTPStubs/Swift'
+ #   test_spec.requires_app_host = true
+ # end
 end
 
