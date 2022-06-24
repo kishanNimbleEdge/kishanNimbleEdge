@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/kishanNimbleEdge/kishanNimbleEdge.git'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'OpenMined' => 'author@openmined.com' }
-  s.source           = { :git => 'https://github.com/kishanNimbleEdge/kishanNimbleEdge.git', :tag => "v#{s.version.to_s}" }
+  s.source           = { :git => 'https://github.com/kishanNimbleEdge/kishanNimbleEdge.git', :tag => "#{s.version.to_s}" }
 
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   s.ios.deployment_target = '13.0'
