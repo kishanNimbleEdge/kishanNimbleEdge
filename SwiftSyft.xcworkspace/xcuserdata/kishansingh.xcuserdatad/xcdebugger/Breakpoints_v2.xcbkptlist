@@ -62,13 +62,8 @@
             filePath = "Example/SwiftSyft/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-<<<<<<< HEAD
-            startingLineNumber = "287"
-            endingLineNumber = "287"
-=======
             startingLineNumber = "289"
             endingLineNumber = "289"
->>>>>>> c36d328 (Add Logger)
             landmarkName = "connectPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
