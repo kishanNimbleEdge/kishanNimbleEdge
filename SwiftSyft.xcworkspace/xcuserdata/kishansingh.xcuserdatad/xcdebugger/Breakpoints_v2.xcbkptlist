@@ -14,8 +14,8 @@
             filePath = "Example/SwiftSyft/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
             landmarkName = "connectPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "Example/SwiftSyft/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "302"
-            endingLineNumber = "302"
+            startingLineNumber = "304"
+            endingLineNumber = "304"
             landmarkName = "connectPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "Example/SwiftSyft/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "293"
-            endingLineNumber = "293"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
             landmarkName = "connectPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,13 @@
             filePath = "Example/SwiftSyft/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+<<<<<<< HEAD
             startingLineNumber = "287"
             endingLineNumber = "287"
+=======
+            startingLineNumber = "289"
+            endingLineNumber = "289"
+>>>>>>> c36d328 (Add Logger)
             landmarkName = "connectPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
